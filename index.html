@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./theme.css">
+    <title>Calculator app</title>
+</head>
+
+<body class="theme1">
+    <div class="box">
+
+        <div class="header-theme">
+
+            <!-- HEADER -->
+
+            <header class="header">
+                <div class="container">
+                    <nav class="nav">
+                        <h1 class="title">calc</h1>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- /HEADER -->
+
+            <!-- THEME -->
+
+            <div class="switcher">
+                <h1 class="theme-title">THEME</h1>
+                <input type="radio" name="theme" value="theme1" class="radio" id="first" checked>
+                <input type="radio" name="theme" value="theme2" class="radio" id="second">
+                <input type="radio" name="theme" value="theme3" class="radio" id="third">
+                <div class="wrap-circle">
+
+                    <label for="first"></label>
+                    <label for="second"></label>
+                    <label for="third"></label>
+
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <!-- /THEME -->
+        </div>
+
+        <!-- RESULT -->
+
+        <section class="result">
+            <div class="container">
+                <!-- <div class="result-div"> -->
+                <!-- <h1 class="result-title">399,981</h1> -->
+                <form name="calculator">
+                    <input type="text" class="result-title" name="display" id="display">
+                </form>
+                <!-- </div> -->
+            </div>
+        </section>
+
+        <!-- /RESULT -->
+
+        <!-- DEEDS -->
+
+        <section class="deeds">
+            <div class="series series1">
+                <input type="button" class="whiteBtn num7" onclick="calculator.display.value +='7'" value="7">
+                <input type="button" class="whiteBtn num8" onclick="calculator.display.value +='8'" value="8">
+                <input type="button" class="whiteBtn num9" onclick="calculator.display.value +='9'" value="9">
+                <input type="button" class="btn-del" onclick="calculator.display.value /=100" value="%">
+            </div>
+            <div class="series series2">
+                <input type="button" class="whiteBtn num4" onclick="calculator.display.value +='4'" value="4">
+                <input type="button" class="whiteBtn num5" onclick="calculator.display.value +='5'" value="5">
+                <input type="button" class="whiteBtn num6" onclick="calculator.display.value +='6'" value="6">
+                <input type="button" class="whiteBtn action-plus" value="+" onclick="calculator.display.value +='+'">
+            </div>
+            <div class="series series3">
+                <input type="button" class="whiteBtn num1" value="1" onclick="calculator.display.value +='1'">
+                <input type="button" class="whiteBtn num2" value="2" onclick="calculator.display.value +='2'">
+                <input type="button" class="whiteBtn num3" value="3" onclick="calculator.display.value +='3'">
+                <input type="button" class="whiteBtn action-minus" value="-" onclick="calculator.display.value +='-'">
+            </div>
+            <div class="series series4">
+                <input type="button" class="whiteBtn action-dot" value="." onclick="calculator.display.value +='.'">
+                <input type="button" class="whiteBtn num0" value="0" onclick="calculator.display.value +='0'">
+                <input type="button" class="whiteBtn action-slash" value="/" onclick="calculator.display.value +='/'">
+                <input type="button" class="whiteBtn action-x" value="x" onclick="calculator.display.value +='*'">
+            </div>
+            <div class="series series5">
+                <input type="button" class="btn-RESET" value="RESET" onclick="calculator.display.value =''">
+                <input type="button" class="action-equal" value="=" onclick="calculator.display.value =eval(calculator.display.value)">
+            </div>
+        </section>
+
+        <!-- /DEEDS -->
+    </div>
+    <script src="./theme.js"></script>
+</body>
+
+</html>

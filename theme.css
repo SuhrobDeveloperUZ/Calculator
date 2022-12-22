@@ -1,0 +1,74 @@
+.theme1 {
+    --bg-color: #3A4663;
+    --calc-title: #FFFFFF;
+    --theme-title: #FFFFFF;
+    --circle-color: #D03F2F;
+    --switcher-bg: #242D44;
+    --result-bg: #181F33;
+    --result-text: #FFFFFF;
+    --deeds-bg-color: #242D44;
+    --white-btn-bg-color: #EAE3DC;
+    --white-btn-shadow-color: #A79E91;
+    --white-btn-hover: #FFFFFE;
+    --white-btn-text-color: #434A59;
+    --del-btn-bg-color: #647198;
+    --del-btn-shadow-color: #414E73;
+    --del-btn-hover-color: #A2B2E1;
+    --equal-btn-bg-color: #D03F2F;
+    --equal-btn-shadow-color: #93261A;
+    --equal-btn-color: #FFFF;
+    --equal-btn-hover-color: #F96B5B;
+    --reset-btn-bg-color: #647198;
+    --reset-btn-hover-color: #A2B2E1;
+    --reset-btn-shadow-color: #414E73;
+}
+
+.theme2 {
+    --bg-color: #E6E6E6;
+    --calc-title: #36362C;
+    --theme-title: #36362C;
+    --circle-color: #C85402;
+    --switcher-bg: #D2CDCD;
+    --result-bg: #EEEEEE;
+    --result-text: #36362C;
+    --deeds-bg-color: #D2CDCD;
+    --white-btn-bg-color: #E5E4E1;
+    --white-btn-shadow-color: #A79E91;
+    --white-btn-hover: #FFFFFF;
+    --white-btn-text-color: #36362C;
+    --del-btn-bg-color: #378187;
+    --del-btn-shadow-color: #1B6066;
+    --del-btn-hover-color: #62B5BC;
+    --equal-btn-bg-color: #C85402;
+    --equal-btn-shadow-color: #873901;
+    --equal-btn-color: #FFFFFF;
+    --equal-btn-hover-color: #FF8A38;
+    --reset-btn-bg-color: #378187;
+    --reset-btn-hover-color: #62B5BC;
+    --reset-btn-shadow-color: #1B6066;
+}
+
+.theme3 {
+    --bg-color: #17062A;
+    --calc-title: #FFE53D;
+    --theme-title: #FFE53D;
+    --circle-color: #00DED0;
+    --switcher-bg: #1E0936;
+    --result-bg: #1E0936;
+    --result-text: #FFE53D;
+    --deeds-bg-color: #1E0936;
+    --white-btn-bg-color: #331C4D;
+    --white-btn-shadow-color: #881C9E;
+    --white-btn-hover: #6C34AC;
+    --white-btn-text-color: #FFE53D;
+    --del-btn-bg-color: #56077C;
+    --del-btn-shadow-color: #BE15F4;
+    --del-btn-hover-color: #8631AF;
+    --equal-btn-bg-color: #00DED0;
+    --equal-btn-shadow-color: #6CF9F1;
+    --equal-btn-color: #1A2327;
+    --equal-btn-hover-color: #93FFF8;
+    --reset-btn-bg-color: #56077C;
+    --reset-btn-hover-color: #8631AF;
+    --reset-btn-shadow-color: #BE15F4;
+}
